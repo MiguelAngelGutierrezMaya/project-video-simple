@@ -1,0 +1,22 @@
+.course-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.course-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.course-card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+}
